@@ -57,7 +57,7 @@ function updateOreo(event) {
       currentLayer = 'Ov';
     }
 
-    image.setAttribute('src', `/img/${currentLayer}.png`);
+    image.setAttribute('src', `img/${currentLayer}.png`);
     image.style['z-index'] = str.length - i;
     image.style.left = `${lefts[currentLayer]}px`;
     image.style.top = `${top}px`;
